@@ -4,7 +4,7 @@
 * www.getskeleton.com
 * Free to use under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
+* 12/29/2014  background-color:#22052b;
 */
 
 
@@ -77,6 +77,7 @@
   .two-thirds.column              { width: 65.3333333333%; }
 
   .one-half.column                { width: 48%; }
+  .fourth.column                  { width: 22%; }
 
   /* Offsets */
   .offset-by-one.column,
@@ -200,19 +201,23 @@ input[type="button"]:focus {
   color: #333;
   border-color: #888;
   outline: 0; }
+
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  color: #22052b;
+  background-color: Transparent;;
+  border-color: #22052b; 
+  border-width:2px;}
+
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
 input[type="reset"].button-primary:hover,
 input[type="button"].button-primary:hover,
+
 .button.button-primary:focus,
 button.button-primary:focus,
 input[type="submit"].button-primary:focus,
@@ -222,6 +227,28 @@ input[type="button"].button-primary:focus {
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
 
+.button.button-secondary,
+button.button-secondary,
+input[type="submit"].button-secondary,
+input[type="reset"].button-secondary,
+input[type="button"].button-secondary {
+  color: #6efacf;
+  background-color: #21072b; }
+
+.button.button-secondary:hover,
+button.button-secondary:hover,
+input[type="submit"].button-secondary:hover,
+input[type="reset"].button-secondary:hover,
+input[type="button"].button-secondary:hover,
+
+.button.button-secondary:focus,
+button.button-secondary:focus,
+input[type="submit"].button-secondary:focus,
+input[type="reset"].button-secondary:focus,
+input[type="button"].button-secondary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
