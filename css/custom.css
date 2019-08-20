@@ -13,6 +13,7 @@
 .section-heading,
 .section-description {
   margin-bottom: 1.2rem;
+  color:#1b0422;
 }
 
 /* Hero
@@ -36,7 +37,7 @@
   background-size: cover;
   color: #dad2e9;
   padding-bottom: 5rem;*/
-  background-color: #1f0328;
+  background-color: #1b0422;
   color: #64c3b2;
   padding-bottom: 5rem;
 
@@ -59,6 +60,8 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .get-help {
   border-bottom: 1px solid #ddd;
+  background: url('../images/backgorund-column_2.png') no-repeat;
+  -webkit-background-size: 100%;
 }
 
 /* Categories
@@ -67,11 +70,13 @@
   /*background-image: url('../images/values-bg.jpg');
   background-size: cover;
   color: #dad2e9;*/
-  background-color:#22052b;
-  color: #67cbb8;
+  background-color: #5cc4af;
+  color: #1f0626;
+ 
 }
 .categories .section-description { 
   margin-bottom: 4rem;
+  background-color: #5cc4af;
 }
 
 /* Bigger than 550 */
@@ -119,9 +124,10 @@
     padding: 16rem 0 14rem;
   }
   .section-description {
-    max-width: 60%;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 24px;
   }
   .phone {
     top: -14rem;
@@ -134,7 +140,6 @@
   }
   .categories {
     padding: 15rem 0 8rem;
-    background-color:#22052b;
   }
 }
 
@@ -145,15 +150,20 @@
   }
   .hero {
     padding: 22rem 0;
-    background: url('../images/section_hero_bg.png') no-repeat;
+    background: url('../images/backgorund-column_1.png') no-repeat;
     -webkit-background-size: 100%;
     /*background: url('../images/section_hero_bg2.png') no-repeat right top;
     -webkit-background-size: 100%;
     background-color: #dad2e9;*/
 
   }
+  .hero2 {
+    padding: 9rem 0;
+    background: url('../images/backgorund-column_3.png') no-repeat;
+    -webkit-background-size: 100%;
+  }
   .hero-heading {
-    font-size: 3.0rem;
+    font-size: 32px;
   }
   .phone {
     top: -16rem;
@@ -163,4 +173,29 @@
     top: -14rem;
     max-height: 570px;
   }
+  .outerDiv
+  {
+    background-color:#666666;
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+    border-width:10px;border-style:dashed;border-color:#FFAC55;padding:5px;
+
+  }
+  .leftDiv
+  {
+    color: #000;
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding-top: 7rem;
+  }
+  .rightDiv
+  {
+    color: #000;
+    height: 100%;
+    width: 50%;
+    float: right;
+    padding-top: 2rem;
+  }     
 }
