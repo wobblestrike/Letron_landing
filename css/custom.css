@@ -32,20 +32,26 @@
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .values {
-  background-image: url('../images/values-bg.jpg');
+  /*background-image: url('../images/values-bg.jpg');
   background-size: cover;
   color: #dad2e9;
+  padding-bottom: 5rem;*/
+  background-color: #1f0328;
+  color: #64c3b2;
   padding-bottom: 5rem;
+
 }
 .value-multiplier {
   margin-bottom: .5rem;
-  color: #33C3F0;
+  color: #64c3b2;
 }
 .value-heading {
   margin-bottom: .3rem;
+  padding-bottom: 2rem;
 }
 .value-description {
   opacity: .8;
+  color: #64c3b2;
   font-weight: 300;
 }
 
@@ -58,9 +64,11 @@
 /* Categories
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .categories {
-  background-image: url('../images/values-bg.jpg');
+  /*background-image: url('../images/values-bg.jpg');
   background-size: cover;
-  color: #dad2e9;
+  color: #dad2e9;*/
+  background-color:#22052b;
+  color: #67cbb8;
 }
 .categories .section-description { 
   margin-bottom: 4rem;
@@ -126,6 +134,7 @@
   }
   .categories {
     padding: 15rem 0 8rem;
+    background-color:#22052b;
   }
 }
 
