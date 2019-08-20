@@ -88,6 +88,14 @@
     padding-bottom: 12rem;
     text-align: left;
     height: 165px;
+    padding: 22rem 0;
+    background: url('../images/backgorund-column_1.png') no-repeat;
+    -webkit-background-size: 100%;
+  }
+  .hero2 {
+    padding: 9rem 0;
+    background: url('../images/backgorund-column_3.png') no-repeat;
+    -webkit-background-size: 100%;
   }
   .phone {
     position: absolute;
@@ -113,6 +121,14 @@
 @media (min-width: 750px) {
   .hero {
     height: 190px;
+    padding: 22rem 0;
+    background: url('../images/backgorund-column_1.png') no-repeat;
+    -webkit-background-size: 100%;
+  }
+  .hero2 {
+    padding: 9rem 0;
+    background: url('../images/backgorund-column_3.png') no-repeat;
+    -webkit-background-size: 100%;
   }
   .hero-heading {
     font-size: 2.6rem;
@@ -152,14 +168,10 @@
     padding: 22rem 0;
     background: url('../images/backgorund-column_1.png') no-repeat;
     -webkit-background-size: 100%;
-    /*background: url('../images/section_hero_bg2.png') no-repeat right top;
-    -webkit-background-size: 100%;
-    background-color: #dad2e9;*/
-
   }
   .hero2 {
     padding: 9rem 0;
-    background: url('../images/backgorund-column_2.png') no-repeat;
+    background: url('../images/backgorund-column_3.png') no-repeat;
     -webkit-background-size: 100%;
   }
   .hero-heading {
