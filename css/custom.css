@@ -126,6 +126,7 @@
     -webkit-background-size: 100%;
   }
   .hero2 {
+    height: 190px;
     padding: 9rem 0;
     background: url('../images/backgorund-column_3.png') no-repeat;
     -webkit-background-size: 100%;
