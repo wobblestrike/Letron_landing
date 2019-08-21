@@ -60,7 +60,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .get-help {
   border-bottom: 1px solid #ddd;
-  background: url('../images/backgorund-column_2.png') no-repeat;
+  background: url('../images/backgorund-column_2.png')  no-repeat fixed;
   -webkit-background-size: 100%;
   padding: 10rem 0 7rem 0;
   text-align: center;
